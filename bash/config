@@ -1,0 +1,24 @@
+# Colours
+NOCOLOUR='\e[0m'
+
+# Text Colors
+BLACK='\e[0;30m'
+RED='\e[0;31m'
+GREEN='\e[0;32m'
+YELLOW='\e[0;33m'
+BLUE='\e[0;34m'
+PURPLE='\e[0;35m'
+CYAN='\e[0;36m'
+WHITE='\e[0;37m'
+
+# Bold (emphasis)
+EBLACK='\e[1;30m'
+ERED='\e[1;31m'
+EGREEN='\e[1;32m'
+EYELLOW='\e[1;33m'
+EBLUE='\e[1;34m'
+EPURPLE='\e[1;35m'
+ECYAN='\e[1;36m'
+EWHITE='\e[1;37m'
+
+PS1="\[$CYAN\]\n\u\[$WHITE\]:\w \[$EBLACK\]\$(vcprompt)\[$NOCOLOR\] \n\[$WHITE\]☃ "

@@ -1,0 +1,5 @@
+alias ..="cd .."
+alias o="open . &"
+alias flush="dscacheutil -flushcache"
+alias show="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
